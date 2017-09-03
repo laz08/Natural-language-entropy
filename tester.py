@@ -67,8 +67,8 @@ def main(argv):
     newText = EntropyUtils.createNewTextSameLetterFreq(result)
     newTextJoint = EntropyUtils.createNewTextSameJointEntropy(result)
 
-    EntropyUtils.writeToFile(fileout + "_new_simple_text", newText)
-    EntropyUtils.writeToFile(fileout + "_new_complex_text", newTextJoint)
+    EntropyUtils.writeToFile(fileout + "_new_simple_text.txt", newText)
+    EntropyUtils.writeToFile(fileout + "_new_complex_text.txt", newTextJoint)
 
 
 if __name__ == "__main__":
